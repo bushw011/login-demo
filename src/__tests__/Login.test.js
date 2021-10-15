@@ -1,7 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import Login from '../screens/Login';
-import { shallow, mount } from 'enzyme';
-import { signIn } from '../services/UserAuthService';
 import axios from "axios";
 import React from 'react';
 import { act } from 'react-dom/test-utils';
